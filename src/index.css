@@ -103,7 +103,13 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: rgba(255, 255, 255, 0.2);
+  min-height: 15%;
+  width: 100%;
+}
+
+.cardGroup {
+  justify-content: flex;
 }
 
 header a {
@@ -187,7 +193,7 @@ textarea {
   display: flex;
   flex-wrap: wrap;
 }
-
+/* 
 .space-between {
   justify-content: space-between;
 }
@@ -219,9 +225,9 @@ textarea {
 .my-5 {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
-}
+} */
 
-.px-1 {
+/* .px-1 {
   padding-right: var(--spacing-one);
   padding-left: var(--spacing-one);
 }
@@ -302,4 +308,41 @@ a {
 
 .navActive {
   color: var(--secondary);
+} */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.card {
+  margin-right: auto;
+  margin-left: auto;
+  width: 250px;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+
+  border-radius: 5px;
+  backdrop-filter: blur(14px);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  text-align: center;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
