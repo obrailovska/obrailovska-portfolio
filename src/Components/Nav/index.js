@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav() {
   return (
-    <header>
+    <header className="flex-row">
       <h2>
         <a href="/">Olha Brailovska</a>
       </h2>
@@ -14,7 +14,7 @@ function Nav() {
           <li className="mx-1">
             <a href="#projects">My Projects</a>
           </li>
-          <li>
+          <li className="mx-1">
             <a href="#contact">Contact Me</a>
           </li>
         </ul>
