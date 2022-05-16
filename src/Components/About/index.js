@@ -1,6 +1,7 @@
 import React from "react";
 import Avatar from "../../Assests/avatar/avatar.jpg";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { Card } from "react-bootstrap";
 
 function About() {
   return (
@@ -17,7 +18,7 @@ function About() {
             />
           </MDBCol>
 
-          <MDBCol className="about-text ">
+          <MDBCol className="about-text">
             <p id="about-text">
               Front-end developer leveraging background in Music Art to create
               great user experiences on the web and provide best design
@@ -33,6 +34,16 @@ function About() {
           </MDBCol>
         </MDBRow>
       </MDBContainer>
+      <Card id="small">
+        <Card.Img src={Avatar}></Card.Img>
+        <Card.Body>
+          <Card.Title>Front-End Developer</Card.Title>
+          <Card.Text>
+            leveraging background in Music Art to create great user experiences
+            on the web and provide best design solutions.
+          </Card.Text>
+        </Card.Body>
+      </Card>
     </section>
   );
 }
