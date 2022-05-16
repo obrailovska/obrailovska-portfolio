@@ -2,7 +2,6 @@ import React from "react";
 import runBuddy from "../../Assests/projects/run-buddy.jpg";
 import IMS from "../../Assests/projects/ims.jpg";
 import budget from "../../Assests/projects/budget-tracker.jpg";
-// import { MDBContainer, MDBRow, MDBCol } from "mdbrea ct";
 import { CardGroup, Card } from "react-bootstrap";
 
 function Projects() {
@@ -56,6 +55,5 @@ function Projects() {
     </section>
   );
 }
-
 
 export default Projects;
