@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "http://brailovska.github.io/obrailovska-portfolio",
+    "homepage": "http://obrailovska.github.io/obrailovska-portfolio",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
