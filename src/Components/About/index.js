@@ -4,9 +4,9 @@ import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
 function About() {
   return (
-    <section>
+    <section className="section">
       <h1 id="about">About Me</h1>
-      <MDBContainer className="about-card">
+      <MDBContainer className="about-card ">
         <MDBRow>
           <MDBCol>
             <img
@@ -17,8 +17,8 @@ function About() {
             />
           </MDBCol>
 
-          <MDBCol>
-            <p>
+          <MDBCol className="about-text ">
+            <p id="about-text">
               Front-end developer leveraging background in Music Art to create
               great user experiences on the web and provide best design
               solutions. Currently earning a certificate in full stack
