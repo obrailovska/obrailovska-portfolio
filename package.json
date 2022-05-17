@@ -1,7 +1,7 @@
 {
   "name": "obrailovska-portfolio",
   "version": "0.1.0",
-  "homepage": "http://obrailovska.github.io/obrailovska-portfolio/",
+  "homepage": "http://obrailovska.github.io/obrailovska-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
