@@ -2,6 +2,7 @@ import React from "react";
 import runBuddy from "../../Assests/projects/run-buddy.jpg";
 import IMS from "../../Assests/projects/ims.jpg";
 import budget from "../../Assests/projects/budget-tracker.jpg";
+import ProPet from "../../Assests/projects/petstore.png";
 import { CardGroup, Card } from "react-bootstrap";
 
 function Projects() {
@@ -47,6 +48,20 @@ function Projects() {
               Budget Tracker is an app that allows you to track your expenses
               and income. Budget Tracker is a PWA application which allows user
               to use it offline.
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer></Card.Footer>
+        </Card>
+        <Card>
+          <a href="https://ims-inventory-s.herokuapp.com/">
+            <Card.Img variant="top" src={ProPet} />
+          </a>
+          <Card.Body>
+            <Card.Title>ProPet</Card.Title>
+            <Card.Text>
+              ProPet is an online store that allows buyers to log in, browse
+              through multiple categories of pets, pick out products, select
+              favorite products, and them to card and complete the purchase.
             </Card.Text>
           </Card.Body>
           <Card.Footer></Card.Footer>
