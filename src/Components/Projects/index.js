@@ -53,7 +53,7 @@ function Projects() {
           <Card.Footer></Card.Footer>
         </Card>
         <Card>
-          <a href="https://ims-inventory-s.herokuapp.com/">
+          <a href="https://afternoon-spire-43659.herokuapp.com/">
             <Card.Img variant="top" src={ProPet} />
           </a>
           <Card.Body>
